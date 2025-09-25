@@ -17,7 +17,7 @@
 Необходимо сделать так, чтобы rsync подсчитывал хэш-суммы для всех файлов, даже если их время модификации и размер идентичны в источнике и приемнике.</br>
 На проверку направить скриншот с командой и результатом ее выполнения</br>
 
->rsync -avP --checksum --exclude=".*" ~/ /tmp/backup
+>rsync -avP --checksum --exclude=".*" ~/test /tmp/backup
 
 ![](https://github.com/Agooll007/Avetisov_nikolay_fault_tolerance_rsync/blob/main/img/2025-09-25_16-00-50.png)
 
